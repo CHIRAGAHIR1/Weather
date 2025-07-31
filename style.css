@@ -123,3 +123,42 @@ body{
     width: 12px;
   }
 }
+
+@media (min-width: 280px) and (max-width: 320px) {
+  .card {
+    padding: 30px 15px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .search input {
+    flex: 1;
+    font-size: 12px;
+    height: 36px;
+    padding: 6px 12px;
+    border-radius: 25px;
+  }
+
+  .search button {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+  }
+
+  .search button img {
+    width: 14px;
+    height: 14px;
+  }
+}
