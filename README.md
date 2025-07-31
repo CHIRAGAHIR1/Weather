@@ -1,6 +1,6 @@
 # 🌦️ Weather App
 
-A simple and responsive web-based Weather App that provides **real-time weather updates** for any city worldwide using the OpenWeatherMap API.
+A simple and responsive web-based Weather App that provides real-time weather updates for any city worldwide using the OpenWeatherMap API.
 
 ## 🔍 Features
 
