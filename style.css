@@ -20,7 +20,7 @@ body{
     background: linear-gradient(135deg,#00feba,#5b548a);
     color: #fff;
     border-radius: 20px;
-    padding: 40px 35px;
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -106,4 +106,20 @@ body{
     margin-left: 10px;
     text-align: left;
     display: none;
+}
+
+@media (max-width: 400px) {
+  .search input {
+    padding: 6px 12px;
+    height: 40px;
+    font-size: 13px;
+  }
+   .search button {
+    width: 45px;
+    height: 45px;
+  }
+
+  .search button img {
+    width: 12px;
+  }
 }
