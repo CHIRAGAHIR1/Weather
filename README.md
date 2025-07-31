@@ -16,3 +16,7 @@ A simple and responsive web-based Weather App that provides **real-time weather 
 - CSS
 - JavaScript
 - OpenWeatherMap API
+
+🌦️ Live Weather App
+Check out my Weather App:
+🔗 https://chiragahir1.github.io/Weather/
