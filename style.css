@@ -124,24 +124,21 @@ body{
   }
 }
 
-@media (min-width: 280px) and (max-width: 320px) {
+@media (min-width: 200px) and (max-width: 320px) {
   .card {
-    padding: 30px 15px;
+    padding: 20px 10px;
   }
 
   .search {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 8px;
+    gap: 6px;
   }
 
   .search input {
     flex: 1;
     font-size: 12px;
-    height: 36px;
-    padding: 6px 12px;
-    border-radius: 25px;
+    height: 32px;
+    padding: 6px 10px;
+    border-radius: 20px;
   }
 
   .search button {
@@ -153,12 +150,107 @@ body{
     align-items: center;
     justify-content: center;
     background: #ebfffc;
+  }
+
+  .search button img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .weather-icon {
+    width: 120px;
+    margin-top: 20px;
+  }
+
+  .weather h1 {
+    font-size: 40px;
+  }
+
+  .weather h2 {
+    font-size: 25px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 16px;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin-top: 30px;
+  }
+
+  .col img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 274px) {
+  .card {
+    padding: 15px 8px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+  }
+
+  .search input {
+    flex: 1;
+    font-size: 11px;
+    height: 28px;
+    padding: 4px 8px;
+    border-radius: 18px;
+  }
+
+  .search button {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ebfffc;
     border: none;
     outline: none;
   }
 
   .search button img {
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .weather-icon {
+    width: 100px;
+    margin-top: 15px;
+  }
+
+  .weather h1 {
+    font-size: 35px;
+  }
+
+  .weather h2 {
+    font-size: 22px;
+  }
+
+  .humidity,
+  .wind {
+    font-size: 14px;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .col img {
+    width: 26px;
   }
 }
